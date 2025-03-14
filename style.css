@@ -1,0 +1,119 @@
+/* Dark Theme */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #121212;
+  color: #eee;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background: #1a1a1a;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo { font-size: 1.8rem; font-weight: bold; }
+
+header nav a {
+  color: #fff;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.hero {
+  background: linear-gradient(to right, #333, #444);
+  color: #fff;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+/* Pricing */
+.pricing-cards { display: flex; justify-content: center; gap: 20px; }
+
+.price-card {
+  background: #222;
+  padding: 20px;
+  border-radius: 10px;
+  width: 220px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+/* Testimonials */
+.testimonial {
+  background: #333;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  max-width: 400px;
+  margin: auto;
+}
+
+form input, form select, form textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+form textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+form button {
+  background: #0072ff;
+  color: #fff;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+form button:hover {
+  background: #005ecb;
+  transform: scale(1.05);
+}
+/* Social Media Icons */
+footer .social-icons {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+footer .social-icons a {
+  color: #fff;
+  font-size: 1.5rem;
+  margin: 0 10px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer .social-icons a:hover {
+  color: #0072ff;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate {
+  animation: fadeIn 1s ease forwards;
+  opacity: 0;
+}
+
