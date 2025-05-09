@@ -1,4 +1,4 @@
-## Hi there 👋
+## Hi! It's me, Ishan Maitra, Founder of Maitra Web Tech.
 
 <!--
 **maitrawebtech/maitrawebtech** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
