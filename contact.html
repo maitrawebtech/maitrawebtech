@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Maitra Web Tech - Premium Web Design</title>
+    <meta name="description" content="Get in touch with Maitra Web Tech for premium web design and development services.">
+     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="site.webmanifest">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- Preload Critical Assets -->
+    <link rel="preload" href="style.css" as="style">
+    <link rel="preload" href="main.js" as="script">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" as="style">
+    
+    <!-- Fonts & Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animations.css">
+    
+    <!-- Mapbox GL JS -->
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js"></script>
+    
+    <!-- Inline Critical CSS -->
+    <style>
+        /* Above-the-fold styles */
+        .preloader {
+            position: fixed; top: 0; left: 0;
+            width: 100%; height: 100%;
+            background: #fff; z-index: 9999;
+            display: flex; justify-content: center; align-items: center;
+        }
+        .loader-spinner {
+            width: 50px; height: 50px;
+            border: 5px solid rgba(108, 92, 231, 0.2);
+            border-top-color: #6c5ce7;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin { to { transform: rotate(360deg); } }
+        .navbar, .hero-content { opacity: 0; }
+    </style>
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader-spinner"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo"><span>Maitra Web Tech</span></a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="contact.html" class="btn btn-primary">Get a Quote</a>
+            </div>
+            <button class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero contact-hero">
+        <div class="container">
+            <div class="hero-content" data-aos="fade-up">
+                <h1 class="hero-title" data-aos="text-reveal">Let's Build <span>Together</span></h1>
+              
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Information Cards -->
+    <section class="contact-info">
+        <div class="container">
+            <div class="info-grid">
+                <!-- Card 1: Address -->
+                <div class="info-card" data-aos="fade-up">
+                    <div class="info-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Our Location</h3>
+                    <p>145 Baghajatin Road, Budge Budge<br>Kolkata, India - 700138</p>
+                    <a href="#map" class="btn btn-link">View on Map <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <!-- Card 2: Phone -->
+                <div class="info-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="info-icon">
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <h3>Call Us</h3>
+                    <p>+91 9674026774<br>Mon-Sun, 10AM-10PM IST</p>
+                    <a href="tel:+919876543210" class="btn btn-link">Call Now <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <!-- Card 3: Email -->
+                <div class="info-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="info-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email Us</h3>
+                    <p>contact@maitrawebtech.com<br>ishanmaitra2012@gmail.com</p>
+                    <a href="mailto:ishanmaitra2012@gmail.com" class="btn btn-link">Email Now <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <!-- Card 4: Social Media -->
+                <div class="info-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="info-icon">
+                        <i class="fas fa-share-alt"></i>
+                    </div>
+                    <h3>Connect With Us</h3>
+                    <div class="social-links">
+                        <a href="https://github.com/maitrawebtech" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/ishan-maitra-574123356?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://twitter.com/maitrawebtech" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://wa.me/919674026774" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form & Map -->
+    <section class="contact-main">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Form -->
+                <div class="contact-form-container" data-aos="fade-right">
+                    <h2>Send Us a Message</h2>
+                    <p>Fill out the form below and we'll respond within 24 hours</p>
+                    
+                    <form id="contactForm" action="https://formspree.io/f/xgvaeyrg" method="POST">
+                        <div class="form-group">
+                            <input type="text" name="name" id="name" placeholder="Your Name" required>
+                            <div class="error-message" id="nameError"></div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="email" name="email" id="email" placeholder="Your Email" required>
+                            <div class="error-message" id="emailError"></div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="tel" name="phone" id="phone" placeholder="Phone Number (Optional)">
+                            <div class="error-message" id="phoneError"></div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <select name="service" id="service" required>
+                                <option value="" disabled selected>Select a Service</option>
+                                <option value="web-design">Web Design</option>
+                                <option value="ecommerce">E-Commerce</option>
+                                <option value="seo">SEO Optimization</option>
+                                <option value="other">Other</option>
+                            </select>
+                            <div class="error-message" id="serviceError"></div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <textarea name="message" id="message" placeholder="Your Project Details" required></textarea>
+                            <div class="error-message" id="messageError"></div>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">
+                            <span id="submitText">Send Message</span>
+                            <div id="submitSpinner" class="spinner"></div>
+                        </button>
+                    </form>
+                    
+                    <div id="formSuccess" class="form-success">
+                        <i class="fas fa-check-circle"></i>
+                        <h3>Message Sent Successfully!</h3>
+                        <p>We'll get back to you within 24 hours.</p>
+                    </div>
+                </div>
+                
+                <!-- Map -->
+                <div class="contact-map" data-aos="fade-left" id="map">
+                    <div id="mapContainer"></div>
+                    <div class="map-overlay">
+                        <h3>Our Office</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> 145 Baghajatin Road, Pujali, Budge Budge, Kolkata - 700138</p>
+                        <a href="https://maps.google.com/?q=145+Baghajatin+Road+Pujali+Kolkata+700138" target="_blank" class="btn btn-secondary">
+                            Open in Google Maps
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Payment Section -->
+    <section class="payment-section">
+        <div class="container">
+            <div class="payment-container" data-aos="fade-up">
+                <div class="payment-content">
+                    <h2>Secure Payment</h2>
+                    <p>Pay your project deposit securely via PayPal</p>
+                    <a href="https://paypal.me/maitrawebtech" target="_blank" class="btn btn-primary payment-btn">
+                        <i class="fab fa-paypal"></i> Pay with PayPal
+                    </a>
+                    <p class="payment-note">You'll be redirected to PayPal's secure payment system</p>
+                </div>
+                <div class="payment-image" data-aos="fade-left">
+                    <img src="qr code.jpg" alt="Secure Payment" width="500" height="300">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="index.html" class="logo"><span>MaitraWebTech</span></a>
+                    <p>Crafting premium digital experiences that drive results.</p>
+                    <div class="social-links">
+                    <a href="https://instagram.com/ishan.maitra" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://twitter.com/maitrawebtech" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://linkedin.com/company/maitrawebtech" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/maitrawebtech" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                       <li><a href="https://ishanmaitra.github.io/ishanmaitra/">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="services.html">Web Design</a></li>
+                        <li><a href="services.html">E-Commerce</a></li>
+                        <li><a href="services.html">SEO</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> ishanmaitra2012@gmail.com</li>
+                        <li><i class="fab fa-whatsapp"></i> +91 9674026774</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Maitra Web Tech. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="main.js"></script>
+    <script src="animations.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        // Initialize AOS animations
+        document.addEventListener('DOMContentLoaded', function() {
+            AOS.init({
+                duration: 800,
+                easing: 'ease-out-quart',
+                once: true,
+                offset: 100
+            });
+            
+            // Remove preloader
+            setTimeout(() => {
+                document.querySelector('.preloader').style.opacity = '0';
+                setTimeout(() => {
+                    document.querySelector('.preloader').style.display = 'none';
+                }, 500);
+            }, 500);
+            
+            // Initialize Mapbox
+            mapboxgl.accessToken = 'YOUR_MAPBOX_ACCESS_TOKEN';
+            const map = new mapboxgl.Map({
+                container: 'mapContainer',
+                style: 'mapbox://styles/mapbox/streets-v12',
+                center: [77.5946, 12.9716], // Bangalore coordinates
+                zoom: 12
+            });
+            
+            // Add marker
+            new mapboxgl.Marker()
+                .setLngLat([77.5946, 12.9716])
+                .addTo(map);
+                
+            // Form validation
+            const contactForm = document.getElementById('contactForm');
+            if (contactForm) {
+                contactForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    
+                    // Validate form
+                    let isValid = true;
+                    const name = document.getElementById('name');
+                    const email = document.getElementById('email');
+                    const message = document.getElementById('message');
+                    
+                    // Reset errors
+                    document.querySelectorAll('.error-message').forEach(el => el.textContent = '');
+                    
+                    // Name validation
+                    if (name.value.trim() === '') {
+                        document.getElementById('nameError').textContent = 'Name is required';
+                        isValid = false;
+                    }
+                    
+                    // Email validation
+                    if (email.value.trim() === '') {
+                        document.getElementById('emailError').textContent = 'Email is required';
+                        isValid = false;
+                    } else if (!/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email.value)) {
+                        document.getElementById('emailError').textContent = 'Invalid email format';
+                        isValid = false;
+                    }
+                    
+                    // Message validation
+                    if (message.value.trim() === '') {
+                        document.getElementById('messageError').textContent = 'Message is required';
+                        isValid = false;
+                    }
+                    
+                    if (isValid) {
+                        // Show loading state
+                        const submitText = document.getElementById('submitText');
+                        const spinner = document.getElementById('submitSpinner');
+                        submitText.textContent = 'Sending...';
+                        spinner.style.display = 'inline-block';
+                        
+                        // Submit to Formspree
+                        fetch(contactForm.action, {
+                            method: 'POST',
+                            body: new FormData(contactForm),
+                            headers: { 'Accept': 'application/json' }
+                        })
+                        .then(response => {
+                            if (response.ok) {
+                                contactForm.style.display = 'none';
+                                document.getElementById('formSuccess').style.display = 'block';
+                                contactForm.reset();
+                            } else {
+                                throw new Error('Failed to send');
+                            }
+                        })
+                        .catch(() => alert('Error! Please try again later.'))
+                        .finally(() => {
+                            submitText.textContent = 'Send Message';
+                            spinner.style.display = 'none';
+                        });
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+</html>
