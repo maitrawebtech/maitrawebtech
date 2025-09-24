@@ -1,5 +1,10 @@
-## Hi! It's me, Ishan Maitra, Founder of Maitra Web Tech.
-
+💻 AI & Web Developer | 🌐 Founder of Maitra Web Tech 
+🚀 Passionate about building modern websites, AI-powered tools, and cloud solutions
+🎯 Skills: HTML, CSS, JavaScript, PHP, SQL, Node.js, Python, Cloud & AI Development
+⚡ Projects: Maitra GPT, NexaTools.com, KHS AI, Maitra Jarvis, Advanced Weather App
+📚 Always learning — from web design to AI & cloud computing
+🌟 Motto: “To Develop to Empower”
+Email: ishanmaitra2012@gmail.com
 <!--
 **maitrawebtech/maitrawebtech** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
