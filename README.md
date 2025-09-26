@@ -1,21 +1,37 @@
-💻 AI & Web Developer | 🌐 Founder of Maitra Web Tech 
-🚀 Passionate about building modern websites, AI-powered tools, and cloud solutions
-🎯 Skills: HTML, CSS, JavaScript, PHP, SQL, Node.js, Python, Cloud & AI Development
-⚡ Projects: Maitra GPT, NexaTools.com, KHS AI, Maitra Jarvis, Advanced Weather App
-📚 Always learning — from web design to AI & cloud computing
-🌟 Motto: “To Develop to Empower”
-Email: ishanmaitra2012@gmail.com
-<!--
-**maitrawebtech/maitrawebtech** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🚀 About Me
 
-Here are some ideas to get you started:
+👋 Hi, I’m Ishan Maitra
+💡 AI & Web Developer | Cloud & AI Developer @ Google Cloud
+🌍 Visionary builder of futuristic, next-gen projects
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+🔹 What I Do
+
+🤖 Artificial Intelligence → Chatbots, AI tools, automation
+
+☁️ Cloud Development → Deploying & scaling intelligent apps on Google Cloud
+
+💻 Web Development → Full-stack apps with modern UI + AI integration
+
+🔬 Futuristic Projects → Blending AI, Cloud, and next-gen interfaces
+
+🔹 Key Projects
+
+Maitra GPT → Full-stack AI chatbot (powered by DeepSeek + Google Cloud)
+
+KHS AI → Free multilingual study chatbot for schools
+
+NexaTools → AI-powered tools hub for developers & creators
+
+Maitra Jarvis → Futuristic console-style web system with real-time effects
+
+Google Cloud Futurism Labs → Researching billion-parameter AI models, quantum-inspired cloud scaling, and next-gen developer systems
+
+🔹 Goals
+
+⚡ Push the boundaries of AI x Cloud x Web
+☁️ Build scalable AI ecosystems on Google Cloud
+🌍 Create futuristic platforms that empower millions
+
+📫 Reach me: ishanmaitra2012@gmail.com
+
+💭 Motto: “To Develop to Empower”
